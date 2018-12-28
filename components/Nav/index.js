@@ -8,8 +8,8 @@ const NavWrapper = styled.nav`
   padding: 1rem;
   /* border-bottom: 0.06rem solid ${({theme}) => theme.color.primaryDark}; */
 
-  background: ${({theme}) => theme.color.primary};
-  box-shadow: 1px 2px 1px ${({theme}) => theme.color.primaryDark};
+  background: ${({theme}) => theme.color.primaryDark};
+  box-shadow: 0 2px 4px rgba(0,0,0,.5);
 `
 
 const NavLinks = styled.div`

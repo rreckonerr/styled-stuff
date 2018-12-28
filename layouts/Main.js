@@ -5,7 +5,8 @@ import styled, { ThemeProvider } from 'styled-components'
 import { theme, hex2Rgba } from '../styles'
 
 const Wrapper = styled.div`
-  background-color: ${({theme}) => hex2Rgba(theme.color.primaryLight, 0.1)}
+  background-color: ${({theme}) => hex2Rgba(theme.color.primaryLight, 0.1)};
+  min-height: 100vh;
 `
 
 const MainContent = styled.main`
